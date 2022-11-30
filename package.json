@@ -1,8 +1,8 @@
 {
-  "name": "picophoto",
-  "productName": "picophoto",
+  "name": "pico-photo",
+  "productName": "pico-photo",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Pico Photo",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -14,7 +14,7 @@
   "keywords": [],
   "author": {
     "name": "Chris Edgington",
-    "email": "chris.edgington@zinc.io"
+    "email": "chris@cedgington.dev"
   },
   "license": "MIT",
   "dependencies": {
