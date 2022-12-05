@@ -10,6 +10,9 @@ if (require('electron-squirrel-startup')) {
   app.quit();
 }
 
+// TODO - remove this line after debugging is done - warnings are annoying
+process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true'
+
 const createWindow = (): void => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({

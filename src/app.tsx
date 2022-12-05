@@ -1,9 +1,11 @@
-import * as ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
-function PicoApp() {
+function App() {
   return (
-    <div>PicoPhoto</div>
+    <h1 className="text-3xl font-bold underline text-green-500">Hello World!</h1>
   )
 }
 
-ReactDOM.render(<PicoApp/>, document.getElementById('app'));
+const originalContainer = document.getElementById('app')
+const reactRoot = createRoot(originalContainer)
+reactRoot.render(<App/>, )
